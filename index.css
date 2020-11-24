@@ -210,7 +210,14 @@ h1 {
     font-family: cambria;
 }
 
-h4  {text-align: center;font-family: cambria;font-weight: 900;font-size: large;color: rgb(161 108 31);text-transform: uppercase;}
+h4  {
+    text-align: center;
+    font-family: cambria;
+    font-weight: 900;
+    font-size: large;
+    color: rgb(161 108 31);
+    text-transform: uppercase;
+}
 .per{
     text-align: center;
 }
@@ -281,7 +288,9 @@ div#morning {
     font-weight: 900;
     font-family: cambria;
 }
-
+.AddItemInfo {
+    font-weight: 700;
+}
 
 
 
