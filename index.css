@@ -49,8 +49,8 @@ span.forAirBold {
     display: grid;
     grid-template-columns: 6fr 3fr;
     column-gap: 5px;
-    padding-left: 5px;
-    margin-left: 15px;
+    /* padding-left: 5px; */
+    /* margin-left: 15px; */
     position: relative;
 }
 .upPriceThree:before {
@@ -291,7 +291,9 @@ div#morning {
 .AddItemInfo {
     font-weight: 700;
 }
-
+div#addMargin {
+    margin-left: 20px;
+}
 
 
 
@@ -358,6 +360,12 @@ div#morning {
     .upPriceThree {
         margin-right: 10px;
         margin-left: 5px;
+    }
+    div#addMargin {
+        margin-left: 10px;
+    }
+    div#deleteMargin {
+        margin-right: 0px;
     }
 
 
